@@ -1,6 +1,7 @@
 import React from 'react';
 import "./styles/App.scss";
-import {HeaderComponent} from './components/Header/HeaderComponent';
+import { HeaderComponent } from './components/Header/HeaderComponent';
+import { HowWeWorkComponent } from './components/HowWeWork/HowWeWorkComponent';
 
 
 function App() {
@@ -12,7 +13,11 @@ function App() {
         </section>
       </header>
       <main>
-
+        <section>
+          <div className='container'>
+            <HowWeWorkComponent />
+          </div>
+        </section>
       </main>
       <footer>
 

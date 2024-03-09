@@ -22,8 +22,8 @@ const HeaderContentComponent = (): JSX.Element => {
                     <div className="text__content">
                         <h2 className="header__h2">Сегодня рынок<br /> IT-технологий измеряется<br /> уже триллионами долларов</h2>
                         <p className="header__description">
-                            Мы знаем как зарабоать свою долю прибыли.
-                            Регистрируйтесь на нашей платформе и начинайте зарабатывать с нами
+                            Мы знаем как зарабоать свою долю прибыли.<br />
+                            Регистрируйтесь на нашей платформе и начинайте <br /> зарабатывать с нами
                         </p>
                         <a href="" className="header__content-button">
                             <span>Калькулятор прибыли</span>

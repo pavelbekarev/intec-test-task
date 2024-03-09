@@ -1,0 +1,47 @@
+.bottom__content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 200px;
+
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 2px;
+        background-color: #E3E3E3;
+        padding-left: 39px;
+        padding-right: 39px;
+        padding-top: 67px;
+        padding-bottom: 64px;
+        width: 100%;
+
+
+        .grid__header {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 1;
+            gap: 60px;
+            margin-bottom: 45px;
+
+            .bottom__logo-image {
+                width: 49px;
+                height: 44px;
+            }
+        
+            
+            .bottom__title {
+                font-size: 16px;
+                font-family: "Montserrat-Bold";
+            }
+        }
+    }
+}
+
+
+
+
+

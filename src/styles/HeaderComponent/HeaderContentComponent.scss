@@ -28,9 +28,9 @@
 .menu__item a,
 .login__button {
     font-family: "Montserrat-Regular";
-    // font-size: 18px;
+    font-size: 14px;
     line-height: 29.14px;
-    letter-spacing: 3%;
+    letter-spacing: 1px;
     text-decoration: none;
     color: #fff;
     font-weight: 100;
@@ -63,10 +63,18 @@
     color: #fff;
     border: none;
     outline: none;
-    padding: 28px 14px;
-    width: 339px;
+    padding: 33px 0px;
+    width: 384px;
     flex-shrink:1;
     // width: 100%;
+    transition: all 0.3s ease;
+
+    &:hover {
+        font-size: 17px;
+        font-weight: 100;
+        transition: all 0.3s ease;
+        background-color: #1f5cf8;
+    }
 }
 
 .header__main-content {
@@ -83,42 +91,46 @@
         width: 792px;
 
         .text__content {
-            padding-top: 123px;
-            padding-left: 111px;
+            padding-left: 89px;
+            margin-top: 20px;
             
             .header__h2 {
                 font-family: "Montserrat-Bold";
                 font-size: 40px;
                 color: #fff;
                 line-height: 150%;
+                letter-spacing: 1px;
             }
 
             .header__description {
-                font-family: "Montserrat-Medium";
-                font-size: 22px;    
+                font-family: "Montserrat-Regular";
+                font-size: 18px;  
+                font-weight: 100;  
                 color: #fff;
                 line-height: 161.9%;
-                margin-top: 52px;
+                margin-top: 32px;
+                margin-left: 3px;
             }
             
             .header__content-button {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 15px 39px;
+                padding: 14px 15px;
                 border: 2px #FFF solid;
-                width: 300px;
+                width: 241px;
                 border-radius: 36px;
-                margin-top: 67px;
+                margin-top: 53px;
                 background-color: transparent;
-                transition: all 0.1s ease;
+                // transition: all 0.1s ease;
                 text-decoration: none;
 
 
                 span {
                     color: #FFF;
-                    font-family: "Montserrat-Medium";
-                    
+                    font-family: "Montserrat-Regular";
+                    font-size: 14px;
+                    letter-spacing: 1px;
                 }
 
 
