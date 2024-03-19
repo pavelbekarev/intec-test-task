@@ -1,0 +1,130 @@
+.textBlock {
+    display: flex;
+    flex-direction: row;
+    gap: 109px;
+    padding-left: 90px;
+
+
+
+    .textBlock__header {
+        display: flex;
+        flex-direction: column;
+        // width: 40%;
+    
+    
+    
+        .textBlock__title {
+            color: #Ffffff;
+            margin-top: 157px;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 52px;
+                height: 3px;
+                left: 0;
+                top: 172px;
+                background: #Ffffff;
+            }
+        }
+
+        .textBlock__button {
+            width: 242px;
+            margin-top: 93px;
+        }
+    }
+
+
+    .textBlock__roadmap {
+        display: flex;
+        flex-direction: column;
+        margin-top: 121px;
+        gap: 38px;
+
+
+
+        .roadmap__item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 38px;
+
+            &:first-child .roadmap__step::before {
+                position: absolute;
+                content: "";
+                border-style: groove dashed;
+                transform: rotateZ(180deg);
+                left: 45%;
+                top: -31px;
+                height: 30px;
+                background: #Ffffff;
+                opacity: .1;
+            }
+
+            &:last-child .roadmap__step::after {
+                position: absolute;
+                content: "";
+                border-style: none dashed;
+                transform: rotateZ(180deg);
+                left: 45%;
+                top: 70px;
+                height: 30px;
+                background: #Ffffff;
+                opacity: .1;
+            }
+
+
+            .roadmap__step {
+                position: relative;
+
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    border-style: dashed;
+                    transform: rotateX(180deg);
+                    left: 45%;
+                    top: 70px;
+                    height: 60px;
+                    background: #Ffffff;
+                    opacity: .3;
+                }
+
+                img {
+                    width: 70px;
+                }
+            }
+
+            .roadmap__stepInfo {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                padding-right: 19px;
+            }
+
+
+
+            .roadmap__item-title {
+                color: #Ffffff;
+                font-size: 16px;
+                font-family: "Montserrat-Bold";
+                font-weight: 200;
+                margin-bottom: 10px;
+            }
+    
+            .roadmap__item-description {
+                color: #Ffffff;
+                
+            }
+        }
+
+        
+    }
+
+    
+}
+
+
+

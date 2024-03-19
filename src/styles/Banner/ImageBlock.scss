@@ -1,0 +1,8 @@
+.imageBlock {
+    width: 335px;
+    height: 100%;
+    display: flex;
+    background: url("../../img/banner_img.svg") no-repeat;
+    background-size: cover;
+    z-index: 100;
+}

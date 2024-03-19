@@ -8,7 +8,7 @@ export const BottomContent = (): JSX.Element => {
             <div className="grid grid1">
                 <div className="grid__header">
                     <img className="bottom__logo-image" src={logoImage} alt="Logo" />
-                    <h2 className="bottom__title">Блокчейн и криптавалюта</h2>
+                    <h2 className="bottom__title">Блокчейн<br /> и криптавалюта</h2>
                 </div>
                 <p className="bottom__description">
                     Сегодня IT-проекты в этой сфере в центре внимания инвесторов всего мира. Но эти технологии интересуют нас не только сами по себе, мы рассматриваем перспективы их внедрение в e-commerce и в развитие маркетплейсов.
@@ -26,10 +26,10 @@ export const BottomContent = (): JSX.Element => {
             <div className="grid grid3">
                 <div className="grid__header">
                     <img className="bottom__logo-image" src={logoImage} alt="Logo" />
-                    <h2 className="bottom__title">Блокчейн и криптавалюта</h2>
+                    <h2 className="bottom__title">Блокчейн<br /> и криптавалюта</h2>
                 </div>
                 <p className="bottom__description">
-                    Некоторые инвесторы уже разуверились     в этих сферах, но технология виртуальной реальности «воскресила» эти отрасли и превратила «Old School» в «New Sexy».
+                    Некоторые инвесторы уже разуверились в этих сферах, но технология виртуальной реальности «воскресила» эти отрасли и превратила «Old School» в «New Sexy».
                 </p>
             </div>
         </div>
