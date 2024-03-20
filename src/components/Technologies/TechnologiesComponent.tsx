@@ -1,4 +1,5 @@
 import "../../styles/Technologies/TechnologiesComponent.scss";
+import logoImage from "../../img/grid1.svg";
 
 export const TechnologiesComponent = (): JSX.Element => {
     return (
@@ -9,29 +10,29 @@ export const TechnologiesComponent = (): JSX.Element => {
             </div>
             <div className="tech__bottom">
                 <div className="card card1">
-                    <img src="" alt="" />
-                    <h2>Стартапы из сферы:</h2>
-                    <p>Криптовалюты</p>
+                    <img className="card__img" src={logoImage} alt="" />
+                    <h2 className="card__title">Стартапы из сферы:</h2>
+                    <p className="card__description">Криптовалюты</p>
                 </div>
                 <div className="card card2">
-                    <img src="" alt="" />
-                    <h2>Технология из сферы:</h2>
-                    <p>ИИ в сфере беттинга</p>
+                    <img className="card__img" src={logoImage} alt="" />
+                    <h2 className="card__title">Технология из сферы:</h2>
+                    <p className="card__description">ИИ в сфере беттинга</p>
                 </div>
                 <div className="card card3">
-                    <img src="" alt="" />
-                    <h2>Стартапы из сферы</h2>
-                    <p>Блокчейн и ICO</p>
+                    <img className="card__img" src={logoImage} alt="" />
+                    <h2 className="card__title">Стартапы из сферы</h2>
+                    <p className="card__description">Блокчейн и ICO</p>
                 </div>
                 <div className="card card4">
-                    <img src="" alt="" />
-                    <h2>Стартапы из сферы</h2>
-                    <p>VR- технологии</p>
+                    <img className="card__img" src={logoImage} alt="" />
+                    <h2 className="card__title">Стартапы из сферы</h2>
+                    <p className="card__description">VR- технологии</p>
                 </div>
                 <div className="card card5">
-                    <img src="" alt="" />
-                    <h2>Стартапы из сферы</h2>
-                    <p>Внедрение сетей 5G</p>
+                    <img className="card__img" src={logoImage} alt="" />
+                    <h2 className="card__title">Стартапы из сферы</h2>
+                    <p className="card__description">Внедрение сетей 5G</p>
                 </div>
             </div>
         </div>

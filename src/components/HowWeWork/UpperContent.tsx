@@ -5,7 +5,9 @@ export const UpperContent = (): JSX.Element => {
     return (
         <div className="upper__content">
             <div className="picture__content">
-                <div className="block block1"><span>Как мы работаем</span></div>
+                <div className="block block1">
+                    <span>Как мы работаем</span>
+                </div>
                 <div className="block block2"></div>
                 <div className="block block3"></div>
             </div>

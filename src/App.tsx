@@ -6,6 +6,7 @@ import { BannerComponent } from './components/Banner/BannerComponent';
 import { AdvantagesComponent } from './components/Advantages/AdvantagesComponent';
 import { StatisticComponent } from './components/Statistic/StatisticComponent';
 import { TechnologiesComponent } from './components/Technologies/TechnologiesComponent';
+import { AIComponent } from './components/AI/AIComponent';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <section>
           <div className="container">
             <TechnologiesComponent />
+            <AIComponent />
           </div>
         </section>
       </main>
